@@ -1,0 +1,53 @@
+Type=Exe
+Reference=*\G{00020430-0000-0000-C000-000000000046}#2.0#0#..\..\..\..\..\..\WINDOWS\system32\stdole2.tlb#OLE Automation
+Reference=*\G{9549DD3E-424C-402F-804A-DFD861DECAAF}#1.0#0#..\GenericClientServerDLL\EVICT_GenericClientServer.dll#EVICT_GenericClientServer
+Reference=*\G{A11B5860-C1B0-4B61-8718-5C001DA546A3}#2.0#0#..\ExceptionHandlerDLL\EVICT_ExceptionHandler.dll#EVICT_ExceptionHandler
+Object={831FDD16-0C5C-11D2-A9FC-0000F8754DA1}#2.0#0; MSCOMCTL.OCX
+Form=frmDemo.frm
+Form=frmServer.frm
+Form=frmClient.frm
+Class=clsUserStatus; clsUser.cls
+IconForm="frmDemo"
+Startup="frmDemo"
+HelpFile=""
+Title="ClientServerDemo"
+ExeName32="ClientServerDemo.exe"
+Command32=""
+Name="ClientServerDemo"
+HelpContextID="0"
+Description="Client server communication demo"
+CompatibleMode="0"
+MajorVer=1
+MinorVer=2
+RevisionVer=98
+AutoIncrementVer=1
+ServerSupportFiles=0
+VersionComments="This demo will show you how easy it is to set up client server communication"
+VersionCompanyName="E.V.I.C.T. B.V."
+VersionFileDescription="This is a demo project for the client server DLL"
+VersionLegalCopyright="Copyright 2005, E.V.I.C.T. B.V."
+VersionProductName="Client server communication demo"
+CompilationType=0
+OptimizationType=0
+FavorPentiumPro(tm)=0
+CodeViewDebugInfo=0
+NoAliasing=0
+BoundsCheck=0
+OverflowCheck=0
+FlPointCheck=0
+FDIVCheck=0
+UnroundedFP=0
+StartMode=0
+Unattended=0
+Retained=0
+ThreadPerObject=0
+MaxNumberOfThreads=1
+DebugStartupOption=0
+
+[MS Transaction Server]
+AutoRefresh=1
+
+[RVB]
+
+[CodeSMART]
+Task_UID=28_04_03_10_43_25

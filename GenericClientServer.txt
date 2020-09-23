@@ -1,0 +1,11 @@
+
+Please read the readme.txt first.
+
+Instructions:
+Register the file GenericClientServerDLL\EVICT_GenericClientServer.dll or compile the project GenericClientServerDLL\EVICT_GenericClientServer.vbp
+
+Run the file GenericClientServerDemo\GenericClientServerDemo.exe or compile the project GenericClientServerDemo\GenericClientServerDemo.vbp
+
+Run the file PortMapperDemo\PortMapperDemo.exe or compile the project PortMapperDemo\PortMapperDemo.vbp
+
+For the latest version and for the complete documentation please visit http://www.evict.nl
