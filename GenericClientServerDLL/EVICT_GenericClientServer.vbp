@@ -1,0 +1,54 @@
+Type=OleDll
+Reference=*\G{00020430-0000-0000-C000-000000000046}#2.0#0#..\..\..\..\..\..\WINDOWS\system32\stdole2.tlb#OLE Automation
+Reference=*\G{5293DA82-FB26-406A-A31B-76AE1AA16A0E}#1.5#0#WinSubHook.tlb#Window/Subclass/Hook/Timer interface 1.5
+Module=modWinsock; modWinsock.bas
+Class=Subclass; Subclass.cls
+Class=Connection; Connection.cls
+Class=GenericClient; GenericClient.cls
+Class=GenericServer; GenericServer.cls
+RelatedDoc=Subclass.asm
+RelatedDoc=WinSubHook.idl
+Startup="(None)"
+HelpFile=""
+Title="EVICT_GenericClientServer"
+ExeName32="EVICT_GenericClientServer.dll"
+Command32=""
+Name="EVICT_GenericClientServer"
+HelpContextID="0"
+Description="EVICT_GenericClientServer"
+CompatibleMode="0"
+CompatibleEXE32="EVICT_GenericClientServer_V0.dll"
+MajorVer=1
+MinorVer=1
+RevisionVer=168
+AutoIncrementVer=1
+ServerSupportFiles=0
+VersionComments="With this DLL it's verry easy to set up your own client server communication."
+VersionCompanyName="E.V.I.C.T. B.V."
+VersionFileDescription="DLL for generic client server communication"
+VersionLegalCopyright="Copyright 2005, E.V.I.C.T. B.V."
+VersionProductName="Generic client server DLL"
+CompilationType=0
+OptimizationType=0
+FavorPentiumPro(tm)=0
+CodeViewDebugInfo=0
+NoAliasing=0
+BoundsCheck=0
+OverflowCheck=0
+FlPointCheck=0
+FDIVCheck=0
+UnroundedFP=0
+StartMode=1
+Unattended=0
+Retained=0
+ThreadPerObject=0
+MaxNumberOfThreads=1
+ThreadingModel=1
+
+[MS Transaction Server]
+AutoRefresh=1
+
+[RVB]
+
+[CodeSMART]
+Task_UID=28_04_03_10_32_39

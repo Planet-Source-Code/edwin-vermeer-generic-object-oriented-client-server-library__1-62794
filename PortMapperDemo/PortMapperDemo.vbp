@@ -1,0 +1,53 @@
+Type=Exe
+Reference=*\G{00020430-0000-0000-C000-000000000046}#2.0#0#..\..\..\..\..\..\WINDOWS\system32\stdole2.tlb#OLE Automation
+Reference=*\G{F357C38D-0F4C-4B76-A0F6-06FBEEC97742}#1.0#0#..\GenericClientServerDLL\GenericClientServer.dll#Generic Client Server DLL
+Reference=*\G{8541E025-2271-4489-820A-0FD0FCD7EC8F}#1.0#0#..\ExeptionHandlerDLL\ExeptionHandlerDLL.dll#ExeptionHandlerDLL
+Object={831FDD16-0C5C-11D2-A9FC-0000F8754DA1}#2.0#0; MSCOMCTL.OCX
+Form=frmDemo.frm
+Form=frmServer.frm
+Class=PortMapper; PortMapper.cls
+Class=PortMapperConnection; PortMapperConnection.cls
+IconForm="frmDemo"
+Startup="frmDemo"
+HelpFile=""
+Title="ClientServerDemo"
+ExeName32="PortMapperDemo.exe"
+Command32=""
+Name="PortMapperDemo"
+HelpContextID="0"
+Description="Port mapper communication demo"
+CompatibleMode="0"
+MajorVer=1
+MinorVer=0
+RevisionVer=24
+AutoIncrementVer=1
+ServerSupportFiles=0
+VersionComments="This demo will show you how easy it is to create a port mapping application"
+VersionCompanyName="E.V.I.C.T. B.V."
+VersionFileDescription="This is a demo project for the client server DLL"
+VersionLegalCopyright="Copyright 2005, E.V.I.C.T. B.V."
+VersionProductName="Port mapper communication demo"
+CompilationType=0
+OptimizationType=0
+FavorPentiumPro(tm)=0
+CodeViewDebugInfo=0
+NoAliasing=0
+BoundsCheck=0
+OverflowCheck=0
+FlPointCheck=0
+FDIVCheck=0
+UnroundedFP=0
+StartMode=0
+Unattended=0
+Retained=0
+ThreadPerObject=0
+MaxNumberOfThreads=1
+DebugStartupOption=0
+
+[MS Transaction Server]
+AutoRefresh=1
+
+[RVB]
+
+[CodeSMART]
+Task_UID=28_04_03_10_43_25
